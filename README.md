@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Capsule Render -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=fff0d2,ffd974,e4f0fb,ef8f92&height=180&section=header&text=豌豆%20·%20isdou&fontSize=42&fontColor=3d281a&animation=twinkling&fontAlignY=32&desc=AI%20Product%20Manager%20·%20Indie%20Developer&descAlignY=55&descSize=16"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=fff0d2,e4f0fb,8eafd2&height=180&section=header&text=豌豆%20·%20isdou&fontSize=42&fontColor=3d281a&animation=twinkling&fontAlignY=32&desc=AI%20Product%20Manager%20·%20Indie%20Developer&descAlignY=55&descSize=16"/>
 
 <!-- Typing Animation Subtitle -->
 <a href="https://github.com/isdou">
@@ -206,5 +206,5 @@ core_focus:
 <br/>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=fff0d2,ffd974,e4f0fb,ef8f92&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=fff0d2,e4f0fb,8eafd2&height=100&section=footer"/>
 </div>
