@@ -1,0 +1,98 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Drop Shadow Filter for UI Panels -->
+    <filter id="shadow" x="0" y="0" width="910" height="270" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="4" dy="4" stdDeviation="0" flood-color="#3d281a" />
+    </filter>
+    <style>
+      .serif { font-family: Georgia, STSong, "Songti SC", "Noto Serif CJK SC", serif; }
+      .mono { font-family: "JetBrains Mono", "SF Mono", Monaco, Courier, monospace; }
+      .sans { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Main Window Frame (Warm Cream Gradient Vibe) -->
+  <rect x="5" y="5" width="880" height="240" rx="14" fill="#fffcf6" stroke="#3d281a" stroke-width="2.5" filter="url(#shadow)" />
+
+  <!-- Window Header Title Bar -->
+  <line x1="5" y1="40" x2="885" y2="40" stroke="#3d281a" stroke-width="1.5" />
+  
+  <!-- Window Window Control Dots -->
+  <circle cx="25" cy="22" r="6" fill="#ef8f92" stroke="#3d281a" stroke-width="1.2" />
+  <circle cx="45" cy="22" r="6" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+  <circle cx="65" cy="22" r="6" fill="#6aa2d8" stroke="#3d281a" stroke-width="1.2" />
+
+  <!-- Window Title Text -->
+  <text x="450" y="26" fill="#3d281a" font-size="12" font-weight="600" class="mono" text-anchor="middle">豌豆@DOU.OS:~ /system_diagnostics_panel</text>
+
+  <!-- Left Side Panel: Profile Card -->
+  <!-- Retro CRT Monitor Icon -->
+  <rect x="35" y="65" width="70" height="56" rx="8" fill="#3d281a" stroke="#3d281a" stroke-width="1.5" />
+  <rect x="40" y="70" width="60" height="42" rx="4" fill="#eedec8" />
+  <!-- CRT Scanlines on the mini screen -->
+  <line x1="43" y1="76" x2="97" y2="76" stroke="#fff" stroke-width="1" opacity="0.6" />
+  <line x1="43" y1="84" x2="97" y2="84" stroke="#ffd974" stroke-width="1.5" />
+  <line x1="43" y1="92" x2="97" y2="92" stroke="#3d281a" stroke-width="1" opacity="0.4" />
+  <line x1="43" y1="100" x2="97" y2="100" stroke="#6aa2d8" stroke-width="2" />
+  <!-- Monitor Base -->
+  <path d="M 60 121 L 80 121 L 85 130 L 55 130 Z" fill="#3d281a" />
+  <circle cx="95" cy="116" r="1.5" fill="#35dd79" />
+
+  <!-- Profile Details -->
+  <text x="120" y="85" fill="#3d281a" font-size="19" font-weight="bold" class="serif">豌豆 · isdou</text>
+  <text x="120" y="104" fill="#7d685c" font-size="12" font-weight="500" class="sans">AI Product Manager &amp; Indie Developer</text>
+  <text x="120" y="123" fill="#3d281a" font-size="11" class="mono">[INTJ-A] [Indie Hacker] [Beijing]</text>
+
+  <!-- Left/Right Split Dotted Line -->
+  <line x1="315" y1="40" x2="315" y2="245" stroke="#3d281a" stroke-width="1.5" stroke-dasharray="4 3" />
+
+  <!-- Right Side Panel: Diagnostics & Stats -->
+  <text x="340" y="70" fill="#7d685c" font-size="11" font-weight="bold" class="mono">DIAGNOSTICS_METRICS:</text>
+
+  <!-- Stat Bar 1: Product & AI Agent -->
+  <text x="340" y="93" fill="#3d281a" font-size="10.5" font-weight="600" class="mono">AI Agent &amp; Product Architecture</text>
+  <rect x="340" y="99" width="220" height="9" rx="4.5" fill="#eedec8" stroke="#3d281a" stroke-width="1" />
+  <rect x="340" y="99" width="210" height="9" rx="4.5" fill="#ffd974" stroke="#3d281a" stroke-width="1" />
+  <text x="572" y="108" fill="#3d281a" font-size="10.5" font-weight="bold" class="mono">95%</text>
+
+  <!-- Stat Bar 2: iOS Native Development -->
+  <text x="340" y="131" fill="#3d281a" font-size="10.5" font-weight="600" class="mono">iOS SwiftUI Native Development</text>
+  <rect x="340" y="137" width="220" height="9" rx="4.5" fill="#eedec8" stroke="#3d281a" stroke-width="1" />
+  <rect x="340" y="137" width="192" height="9" rx="4.5" fill="#6aa2d8" stroke="#3d281a" stroke-width="1" />
+  <text x="572" y="146" fill="#3d281a" font-size="10.5" font-weight="bold" class="mono">88%</text>
+
+  <!-- Stat Bar 3: Full-Stack Dev -->
+  <text x="340" y="169" fill="#3d281a" font-size="10.5" font-weight="600" class="mono">Full-Stack (React/Vite/Express/Node)</text>
+  <rect x="340" y="175" width="220" height="9" rx="4.5" fill="#eedec8" stroke="#3d281a" stroke-width="1" />
+  <rect x="340" y="175" width="180" height="9" rx="4.5" fill="#ef8f92" stroke="#3d281a" stroke-width="1" />
+  <text x="572" y="184" fill="#3d281a" font-size="10.5" font-weight="bold" class="mono">82%</text>
+
+  <!-- Terminal Console Box -->
+  <rect x="610" y="65" width="250" height="126" rx="8" fill="#1b120c" stroke="#3d281a" stroke-width="1.5" />
+  <!-- Terminal Content -->
+  <text x="625" y="86" fill="#35dd79" font-size="10.5" class="mono">&gt; cat douos_status.conf</text>
+  <text x="625" y="103" fill="#fff" font-size="10.5" class="mono">Status: ONLINE (running)</text>
+  <text x="625" y="120" fill="#ffd974" font-size="10.5" class="mono">Philosophy: 轻软、安静、有用</text>
+  <text x="625" y="137" fill="#ef8f92" font-size="10.5" class="mono">Core: B2B/B2C AI Agent Tools</text>
+  <text x="625" y="154" fill="#6aa2d8" font-size="10.5" class="mono">Motto: 日常有回应，生活有线索</text>
+  <!-- Blinking Cursor -->
+  <rect x="812" y="145" width="6" height="10" fill="#35dd79" opacity="0.8" />
+  <circle cx="842" cy="173" r="3" fill="#35dd79" />
+  <text x="625" y="176" fill="#7d685c" font-size="9" class="mono">[DOU.OS KERNEL VERIFIED]</text>
+
+  <!-- Bottom Navigation Capsule Buttons -->
+  <g filter="drop-shadow(2px 2px 0px #3d281a)">
+    <rect x="35" y="202" width="105" height="22" rx="11" fill="#ffd974" stroke="#3d281a" stroke-width="1.5" />
+    <text x="87.5" y="216.5" fill="#3d281a" font-size="10" font-weight="bold" class="mono" text-anchor="middle">🖥️ isdou.info</text>
+  </g>
+
+  <g filter="drop-shadow(2px 2px 0px #3d281a)">
+    <rect x="155" y="202" width="105" height="22" rx="11" fill="#6aa2d8" stroke="#3d281a" stroke-width="1.5" />
+    <text x="207.5" y="216.5" fill="#fff" font-size="10" font-weight="bold" class="mono" text-anchor="middle">🌱 LifeLogs</text>
+  </g>
+
+  <g filter="drop-shadow(2px 2px 0px #3d281a)">
+    <rect x="275" y="202" width="145" height="22" rx="11" fill="#ef8f92" stroke="#3d281a" stroke-width="1.5" />
+    <text x="347.5" y="216.5" fill="#3d281a" font-size="10" font-weight="bold" class="mono" text-anchor="middle">✉️ isdou.exe@gmail.com</text>
+  </g>
+</svg>
