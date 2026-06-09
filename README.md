@@ -61,6 +61,22 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       专为鞋服与服装供应链打造的 <b>AI 原生售后整改闭环平台</b>。系统对接 Shopify / Amazon Reviews / Zendesk 等 DTC 电商舆情与客服工单流，自动识别售后质量瑕疵，进行舆情聚类与供应商信誉风险评级。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[AI_INTEGRATION]
+model = "gemini-2.5-pro"
+temperature = 0.15
+system_prompt = "CAPA_8D_Expert_Auditor"
+
+[INTEGRATED_DTC]
+shopify_webhook = "active"
+zendesk_ticket_api = "enabled"
+AQL_standard_level = "MIL-STD-105E"
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
@@ -89,6 +105,26 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       “同一天，五年的你”——记录时间维度中的心路成长，防范时间压缩效应（Temporal Compression Effect）。纯原生 Swift 与 SwiftUI 开发，保障极度流畅的界面动效交互。2025 年 1 月已正式上架 App Store 运营。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[AI_EMOTION_ENGINE]
+provider = "DeepSeek-V3"
+mbti_tone_mapping = {
+  ENTP: "witty/spontaneous",
+  INFP: "poetic/empathic",
+  ISFJ: "observant/warm"
+}
+stream_buffer = "enabled"
+
+[STORAGE_ECO]
+database = "CoreData.PlyApp"
+cloud_provider = "iCloud.CloudKit"
+audio_codec = "AAC_Mono_44k"
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
@@ -117,6 +153,22 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       <b>熬了么 App</b>：修仙主题健康与睡眠追踪混合应用。深度集成 Apple HealthKit 接口，将物理运动步数与睡眠数据结算为修仙功德/修为，内置宗门社交与冥界游历游戏系统。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[HEALTHKIT_BRIDGING]
+authorized_read = ["steps", "sleep", "heart_rate"]
+formula = "merits = steps/1000 + sleep_hours"
+sect_affinity_multiplier = 1.05
+
+[REACT_PERFORMANCE]
+render_memoization = "active"
+lazy_loading_views = 45
+gpu_accelerate = "enabled"
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
@@ -145,6 +197,22 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       <b>ClimbOS (climb)</b>：专为攀岩/抱石爱好者设计的训练打卡 App。提供 V-grade (V0-V10+) 难度分布直方图，按岩壁倾角（slab/overhang/cave）及把手类型（crimp/sloper/pinch/pocket）记录攀爬尝试与成功率。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[CLIMBING_ANALYTICS]
+v_scale_bounds = ["V0", "V14"]
+hold_types = ["crimp", "sloper", "pinch", "pocket"]
+plateau_window = "30_days"
+
+[BUDGET_SYSTEM]
+db_provider = "CoreData"
+budget_categories = 8
+warning_threshold = 0.80
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
@@ -173,6 +241,22 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       <b>ai-ppt-10-minutes</b>：专为 Google AI Studio 编写的 React + TS Web 应用。集成 `@google/genai` (Gemini SDK) 引擎与 Recharts 可视化库，利用 SCQA、PREP 等汇报模型拆解逻辑，内置 Obsidian 深色与 Minimal Ivory 留白风模板。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[PPT_PIPELINE]
+core_engine = "google-genai-sdk"
+recharts_compiler = "TS_Vite"
+frameworks = ["SCQA", "PREP", "FABE"]
+
+[SLIDES_CLI]
+scheduler = ["openai-api", "local-ollama"]
+verification = "playwright.chromium"
+pixel_tolerance = 0.02
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
@@ -201,6 +285,21 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       致敬经典 CRT 模拟偏振光栅、动态扫描线和细腻噪波层，极富个性与极客浪漫。整理并归档了个人思想随笔、旅行足迹、美食地图、观影（豆瓣）档案等生活痕迹。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[VISUAL_FILTERS]
+phosphor_scanline = "enabled"
+bloom_glow_radius = "1.5px"
+noise_grain = 0.04
+
+[SOURCE_DATA]
+feed_sync = ["douban", "essays", "travel"]
+engine = "React + Tailwind"
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
@@ -229,6 +328,22 @@ core_focus:
     <td width="50%" valign="top" bgcolor="#ffffff">
       <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
       <b>小豆 (xiaodou)</b>：基于大语言模型个性化微调的 AI 虚拟好友 Companion App 概念。设计聚焦聊天、记事与轻量任务看板（小豆、对话、盒子、我的四大主入口），打造极简温暖的随身陪伴空间。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[AI_COMPANION]
+persona = "xiaodou (companion)"
+modules = ["chat", "box", "calendar"]
+ram_memory = "enabled"
+
+[TRAVEL_GPS]
+sdk_level = "Expo_54"
+tracking = "geofence_active"
+map = "Mapbox_Vector_Tiles"
+        </pre>
+      </details>
     </td>
     <td width="50%" valign="top" bgcolor="#fffcf6">
       <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
