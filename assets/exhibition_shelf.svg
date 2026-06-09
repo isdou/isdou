@@ -1,0 +1,208 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Shelf Shadow -->
+    <filter id="shelf-shadow" x="0" y="0" width="910" height="270" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#3d281a" flood-opacity="0.35" />
+    </filter>
+    <!-- Spotlight Effect Gradient -->
+    <radialGradient id="wall-glow" cx="50%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#fffdfa" />
+      <stop offset="55%" stop-color="#fff8ec" />
+      <stop offset="100%" stop-color="#eedfcb" />
+    </radialGradient>
+    <style>
+      .label-text { font-family: "JetBrains Mono", "SF Mono", Monaco, Courier, monospace; font-size: 8.5px; font-weight: 800; fill: #3d281a; }
+      .sans { font-family: "Inter", -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Gallery Wall Background -->
+  <rect x="5" y="5" width="880" height="240" rx="14" fill="url(#wall-glow)" stroke="#3d281a" stroke-width="2.5" />
+
+  <!-- Wooden Shelf Back Highlight -->
+  <rect x="15" y="165" width="860" height="15" fill="#3d281a" opacity="0.12" />
+  
+  <!-- Main Shelf Body -->
+  <rect x="15" y="170" width="860" height="18" fill="#5c3f2d" stroke="#3d281a" stroke-width="2.5" filter="url(#shelf-shadow)" />
+  
+  <!-- Shelf Top Bevel Highlight Surfaces -->
+  <rect x="16.5" y="168.5" width="857" height="3" fill="#8d5f47" />
+  <rect x="16.5" y="171.5" width="857" height="1.2" fill="#a87458" />
+
+  <!-- Shelf Brackets (Metal Cast Support) -->
+  <path d="M 120 188 L 120 215 C 120 218 116 220 112 218 L 105 210 Z" fill="#3d281a" />
+  <path d="M 450 188 L 450 215 C 450 218 446 220 442 218 L 435 210 Z" fill="#3d281a" />
+  <path d="M 780 188 L 780 215 C 780 218 776 220 772 218 L 765 210 Z" fill="#3d281a" />
+
+  <!-- Exhibit No. 1: QualityLens (Leather Clipboard with Checklist) -->
+  <g transform="translate(42, 60)">
+    <!-- Clipboard Board -->
+    <rect x="5" y="12" width="56" height="76" rx="4" fill="#a87458" stroke="#3d281a" stroke-width="2" />
+    <!-- Paper Sheet -->
+    <rect x="10" y="22" width="46" height="60" fill="#fffef9" stroke="#3d281a" stroke-width="1.2" />
+    <!-- Golden Clip -->
+    <path d="M 23 9 L 43 9 L 39 19 L 27 19 Z" fill="#ffd974" stroke="#3d281a" stroke-width="1.5" />
+    <circle cx="33" cy="14" r="1.5" fill="#3d281a" />
+    <!-- Checklist items (lines) -->
+    <line x1="16" y1="34" x2="44" y2="34" stroke="#3d281a" stroke-width="1.8" />
+    <line x1="16" y1="46" x2="44" y2="46" stroke="#3d281a" stroke-width="1.8" />
+    <line x1="16" y1="58" x2="36" y2="58" stroke="#3d281a" stroke-width="1.8" />
+    <!-- Mini green checked circle -->
+    <circle cx="43" cy="58" r="3.5" fill="#35dd79" stroke="#3d281a" stroke-width="1" />
+  </g>
+  <!-- Brass Plaque 1 -->
+  <g transform="translate(30, 196)">
+    <rect x="0" y="0" width="90" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="86" cy="9" r="1" fill="#3d281a" />
+    <text x="45" y="12.5" class="label-text" text-anchor="middle">QualityLens</text>
+  </g>
+
+  <!-- Exhibit No. 2: LifeLogs (Mini iPhone showing Calendar App) -->
+  <g transform="translate(170, 48)">
+    <!-- Smartphone Case -->
+    <rect x="15" y="5" width="50" height="96" rx="9" fill="#fffcf6" stroke="#3d281a" stroke-width="2.2" />
+    <!-- Dynamic Screen -->
+    <rect x="18" y="12" width="44" height="81" rx="4.5" fill="#6aa2d8" stroke="#3d281a" stroke-width="1.5" />
+    <!-- Top Notch speaker -->
+    <rect x="33" y="6" width="14" height="4" rx="2" fill="#3d281a" />
+    <!-- App UI Mockup (Calendar Grid) -->
+    <rect x="22" y="20" width="36" height="30" rx="2.5" fill="#fff" opacity="0.9" stroke="#3d281a" stroke-width="1.2" />
+    <!-- Small dots for dates -->
+    <circle cx="28" cy="27" r="2.2" fill="#ef8f92" />
+    <circle cx="36" cy="27" r="2.2" fill="#3d281a" />
+    <circle cx="44" cy="27" r="2.2" fill="#3d281a" />
+    <circle cx="28" cy="36" r="2.2" fill="#3d281a" />
+    <circle cx="36" cy="36" r="2.2" fill="#ffd974" />
+    <circle cx="44" cy="36" r="2.2" fill="#3d281a" />
+    <!-- Home Bar indicator -->
+    <line x1="31" y1="90" x2="49" y2="90" stroke="#3d281a" stroke-width="1.8" />
+  </g>
+  <!-- Brass Plaque 2 -->
+  <g transform="translate(160, 196)">
+    <rect x="0" y="0" width="90" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="86" cy="9" r="1" fill="#3d281a" />
+    <text x="45" y="12.5" class="label-text" text-anchor="middle">LifeLogs</text>
+  </g>
+
+  <!-- Exhibit No. 3: Aoleme (Magical Purple Potion Jar representing Cultivation) -->
+  <g transform="translate(302, 55)">
+    <!-- Glass Potion Jar Body -->
+    <path d="M 24 85 C 24 60 13 55 29 35 L 29 24 L 46 24 L 46 35 C 62 55 51 60 51 85 Z" fill="#fffcf6" stroke="#3d281a" stroke-width="2" />
+    <!-- Cultivation Elixir liquid inside -->
+    <path d="M 26 82 C 26 68 32 60 38 65 C 44 70 49 68 49 82 Z" fill="#7c3aed" opacity="0.65" stroke="#3d281a" stroke-width="1.2" />
+    <!-- Wooden bottle plug -->
+    <rect x="33" y="18" width="9" height="7" rx="1.5" fill="#a87458" stroke="#3d281a" stroke-width="1.5" />
+    <!-- Ribbon necklace tie -->
+    <rect x="27.5" y="32" width="20" height="5" rx="1" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <!-- Magic Sprout Sparkles -->
+    <path d="M 19 22 L 22 26 L 19 30 L 16 26 Z" fill="#ffd974" />
+    <path d="M 55 26 L 57 30 L 55 34 L 53 30 Z" fill="#ffd974" />
+  </g>
+  <!-- Brass Plaque 3 -->
+  <g transform="translate(290, 196)">
+    <rect x="0" y="0" width="90" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="86" cy="9" r="1" fill="#3d281a" />
+    <text x="45" y="12.5" class="label-text" text-anchor="middle">Aoleme</text>
+  </g>
+
+  <!-- Exhibit No. 4: ClimbOS & Budget (Combo Safe + Bouldering Crimp Hold) -->
+  <g transform="translate(425, 56)">
+    <!-- Core Safe Box -->
+    <rect x="5" y="44" width="40" height="40" rx="4" fill="#eedec8" stroke="#3d281a" stroke-width="2" />
+    <!-- Lock dial dial wheel -->
+    <circle cx="25" cy="64" r="10" fill="#fff" stroke="#3d281a" stroke-width="1.5" />
+    <line x1="25" y1="54" x2="25" y2="74" stroke="#3d281a" stroke-width="1.5" />
+    <line x1="15" y1="64" x2="35" y2="64" stroke="#3d281a" stroke-width="1.5" />
+    <!-- Safe door hinges -->
+    <rect x="3" y="48" width="3" height="6" fill="#3d281a" />
+    <rect x="3" y="70" width="3" height="6" fill="#3d281a" />
+    <!-- Bouldering Rock Crimp Hold hanging -->
+    <path d="M 25 15 C 36 12 46 22 36 32 C 20 35 10 25 25 15 Z" fill="#6aa2d8" stroke="#3d281a" stroke-width="2" />
+    <!-- Central socket head cap screw hole -->
+    <circle cx="27" cy="23" r="2.5" fill="#3d281a" />
+  </g>
+  <!-- Brass Plaque 4 -->
+  <g transform="translate(410, 196)">
+    <rect x="0" y="0" width="100" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="96" cy="9" r="1" fill="#3d281a" />
+    <text x="50" y="12.5" class="label-text" text-anchor="middle">Climb &amp; Budget</text>
+  </g>
+
+  <!-- Exhibit No. 5: Presentation Suite (Easel Tripod Presentation Chart) -->
+  <g transform="translate(552, 54)">
+    <!-- Tripod Stand Legs -->
+    <line x1="25" y1="40" x2="8" y2="96" stroke="#3d281a" stroke-width="2.2" />
+    <line x1="25" y1="40" x2="42" y2="96" stroke="#3d281a" stroke-width="2.2" />
+    <line x1="25" y1="40" x2="25" y2="98" stroke="#3d281a" stroke-width="1.5" />
+    <!-- Easel Whiteboard Frame -->
+    <rect x="5" y="15" width="40" height="31" fill="#fffef9" stroke="#3d281a" stroke-width="2" />
+    <!-- Analytical trend line -->
+    <path d="M 10 38 L 20 25 L 29 32 L 39 19" stroke="#ef8f92" stroke-width="2.2" fill="none" />
+    <circle cx="39" cy="19" r="2" fill="#3d281a" />
+  </g>
+  <!-- Brass Plaque 5 -->
+  <g transform="translate(535, 196)">
+    <rect x="0" y="0" width="95" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="91" cy="9" r="1" fill="#3d281a" />
+    <text x="47.5" y="12.5" class="label-text" text-anchor="middle">Presentation</text>
+  </g>
+
+  <!-- Exhibit No. 6: DOU.OS (Vintage Retro CRT Wood-Cabinet TV) -->
+  <g transform="translate(670, 56)">
+    <!-- Wooden Cabinet box frame -->
+    <rect x="5" y="16" width="55" height="48" rx="6" fill="#a87458" stroke="#3d281a" stroke-width="2" />
+    <!-- Screen Bezel front panel -->
+    <rect x="9" y="20" width="37" height="40" rx="3.5" fill="#eedec8" stroke="#3d281a" stroke-width="1.5" />
+    <!-- Screen Screen Glass glass -->
+    <rect x="12" y="23" width="31" height="34" rx="2.5" fill="#3d281a" />
+    <!-- Analog Oscilloscope wave line -->
+    <line x1="14" y1="39" x2="41" y2="39" stroke="#35dd79" stroke-width="1.8" opacity="0.85" />
+    <!-- Control knobs -->
+    <circle cx="51.5" cy="27" r="2.2" fill="#3d281a" />
+    <circle cx="51.5" cy="35" r="2.2" fill="#3d281a" />
+    <rect x="49" y="43" width="5" height="8" rx="0.5" fill="#3d281a" />
+    <!-- Rabbit-ear antennas -->
+    <line x1="22" y1="16" x2="9" y2="4" stroke="#3d281a" stroke-width="1.5" />
+    <line x1="38" y1="16" x2="49" y2="4" stroke="#3d281a" stroke-width="1.5" />
+    <circle cx="9" cy="4" r="1.8" fill="#3d281a" />
+    <circle cx="49" cy="4" r="1.8" fill="#3d281a" />
+    <!-- Wooden support legs -->
+    <line x1="18" y1="64" x2="12" y2="76" stroke="#3d281a" stroke-width="2.2" />
+    <line x1="47" y1="64" x2="53" y2="76" stroke="#3d281a" stroke-width="2.2" />
+  </g>
+  <!-- Brass Plaque 6 -->
+  <g transform="translate(660, 196)">
+    <rect x="0" y="0" width="90" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="86" cy="9" r="1" fill="#3d281a" />
+    <text x="45" y="12.5" class="label-text" text-anchor="middle">DOU.OS</text>
+  </g>
+
+  <!-- Exhibit No. 7: TravelOS & xiaodou (Treasure Scroll Map + Pea pod jar) -->
+  <g transform="translate(790, 60)">
+    <!-- Rolled out scroll map -->
+    <path d="M 5 25 L 35 25 L 35 65 L 5 65 Z" fill="#eedec8" stroke="#3d281a" stroke-width="1.8" />
+    <path d="M 5 25 C 2 25 2 30 5 30 L 35 30 C 38 30 38 25 35 25 Z" fill="#ffd974" stroke="#3d281a" stroke-width="1.5" />
+    <path d="M 5 60 C 2 60 2 65 5 65 L 35 65 C 38 65 38 60 35 60 Z" fill="#ffd974" stroke="#3d281a" stroke-width="1.5" />
+    <!-- Red X destination mark -->
+    <path d="M 15 42 L 25 52 M 25 42 L 15 52" stroke="#ef8f92" stroke-width="2" />
+    <!-- Glass jar holding green peas -->
+    <rect x="42" y="38" width="18" height="28" rx="3.5" fill="#6aa2d8" stroke="#3d281a" stroke-width="1.5" opacity="0.9" />
+    <!-- Lid -->
+    <rect x="44" y="35" width="14" height="4" rx="1" fill="#a87458" stroke="#3d281a" stroke-width="1.2" />
+    <!-- Green Pea inside jar -->
+    <circle cx="51" cy="52" r="3.5" fill="#35dd79" stroke="#3d281a" stroke-width="1" />
+  </g>
+  <!-- Brass Plaque 7 -->
+  <g transform="translate(775, 196)">
+    <rect x="0" y="0" width="100" height="18" rx="2" fill="#ffd974" stroke="#3d281a" stroke-width="1.2" />
+    <circle cx="4" cy="9" r="1" fill="#3d281a" />
+    <circle cx="96" cy="9" r="1" fill="#3d281a" />
+    <text x="50" y="12.5" class="label-text" text-anchor="middle">Travel &amp; xiaodou</text>
+  </g>
+</svg>
