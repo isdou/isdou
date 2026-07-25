@@ -19,28 +19,6 @@
 
 ---
 
-## 👋 Hello, I'm Dou / 关于我
-
-```yaml
-🏷️ identity:
-  role: "AI Product Manager & Indie iOS Developer"
-  mbti: "INTJ-A (The Architect)"
-  location: "Beijing, China 🏙️"
-  philosophy: "日常有回应，生活有线索。让技术轻软、安静、有用。"
-
-🔨 currently_building:
-  - "Warm, human-centered native iOS apps"
-  - "B2B AI agent applications for supply chain"
-  - "Tools that make life feel a little softer"
-
-🎨 design_taste:
-  - "Warm retro-modern & glassmorphism"
-  - "Cream yellow & soft neutral palettes"
-  - "Motion that feels physical, not flashy"
-```
-
----
-
 ## 📱 My Apps / 我的作品
 
 <div align="center">
