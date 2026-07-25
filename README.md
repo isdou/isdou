@@ -154,9 +154,4 @@ features: [显像管效果模拟, 豆瓣同步, 生活足迹归档]
 ```
 </details>
 
----
-
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=fff8eb&height=100&section=footer"/>
-</div>
 
