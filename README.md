@@ -3,11 +3,6 @@
 <!-- Header Banner -->
 <img width="100%" src="assets/desktop_header.svg"/>
 
-<!-- Animated Typing -->
-<a href="https://github.com/isdou">
-  <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=600&size=20&duration=3000&pause=1000&color=3d281a&center=true&vCenter=true&width=620&lines=日常有回应，生活有线索。;Turning+AI+ideas+into+real+products;iOS+独立开发者+·+Indie+Hacker;INTJ+·+Builder+·+Beijing+🏙️" alt="Typing SVG" />
-</a>
-
 <br/>
 
 <!-- Social & Links -->
