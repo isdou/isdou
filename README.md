@@ -156,62 +156,7 @@ features: [显像管效果模拟, 豆瓣同步, 生活足迹归档]
 
 ---
 
-## ⚡ Tech Stack / 技术栈
-
 <div align="center">
-
-**Mobile & Apple Ecosystem**
-<br/>
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white&labelColor=3d281a&color=F05138)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-1572B6?style=flat-square&logo=swift&logoColor=white&labelColor=3d281a&color=1572B6)
-![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=ios&logoColor=white&labelColor=3d281a&color=000000)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white&labelColor=3d281a&color=147EFB)
-
-**AI & Product**
-<br/>
-![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=flat-square&logo=openai&logoColor=white&labelColor=3d281a&color=74aa9c)
-![Claude](https://img.shields.io/badge/Claude-CC785C?style=flat-square&logo=anthropic&logoColor=white&labelColor=3d281a&color=CC785C)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white&labelColor=3d281a&color=F24E1E)
-![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white&labelColor=3d281a&color=000000)
-
-**Full Stack**
-<br/>
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB&labelColor=3d281a&color=20232A)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white&labelColor=3d281a&color=007ACC)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=3d281a&color=38B2AC)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=3d281a&color=339933)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=3d281a&color=3776AB)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=isdou&show_icons=true&bg_color=fffcf6&title_color=3d281a&text_color=4a3526&icon_color=f5b74f&border_color=e2d7c5&count_private=true&include_all_commits=true&hide_rank=true" />
-&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isdou&layout=compact&bg_color=fffcf6&title_color=3d281a&text_color=4a3526&border_color=e2d7c5&langs_count=6" />
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=isdou&background=fffcf6&stroke=e2d7c5&ring=f5b74f&fire=f59e0b&currStreakLabel=3d281a&sideLabels=4a3526&dates=8e7462&border=e2d7c5)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 💭 Philosophy / 独白
-
-<div align="center">
-
-> *"最好的产品，是让用户感觉不到 AI 在哪里，只感觉到一切变得更好了。"*
->
-> *The best AI product is one where users don't notice the AI — they just feel everything got better.*
-
-<br/>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=fff8eb&height=100&section=footer"/>
-
 </div>
+
