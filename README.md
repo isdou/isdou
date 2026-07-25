@@ -96,6 +96,8 @@ AQL_standard_level = "MIL-STD-105E"
 <table width="100%" border="1" cellpadding="12" cellspacing="0" bordercolor="#3d281a">
   <tr bgcolor="#fff8eb">
     <td align="center" colspan="2">
+      <img src="assets/appicons/lifelogs.png" width="64" height="64" style="border-radius: 14px; margin-bottom: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <br/>
       <font size="1" color="#8e7462" class="mono">—— EXHIBIT NO. 02 ——</font><br/>
       <font size="4" color="#3d281a" face="Georgia, serif"><b>🌱 Lifelogs (Ply)</b></font><br/>
       <font size="2" color="#8e7462"><i>Medium: iOS Native App, SwiftUI, CoreData, iCloudSync</i> &nbsp;|&nbsp; <i>Year: 2025</i></font>
@@ -319,6 +321,8 @@ engine = "React + Tailwind"
 <table width="100%" border="1" cellpadding="12" cellspacing="0" bordercolor="#3d281a">
   <tr bgcolor="#fff8eb">
     <td align="center" colspan="2">
+      <img src="assets/appicons/xiaodou.png" width="64" height="64" style="border-radius: 14px; margin-bottom: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <br/>
       <font size="1" color="#8e7462" class="mono">—— EXHIBIT NO. 07 ——</font><br/>
       <font size="4" color="#3d281a" face="Georgia, serif"><b>🫛 小豆 AI &amp; TravelOS (伴侣与旅行)</b></font><br/>
       <font size="2" color="#8e7462"><i>Medium: React Native, Expo 54, Express, TypeScript</i> &nbsp;|&nbsp; <i>Year: 2026</i></font>
@@ -353,6 +357,103 @@ map = "Mapbox_Vector_Tiles"
   <tr bgcolor="#fffdfa">
     <td colspan="2" align="center">
       <font size="2" color="#3d281a"><b>展品特征：</b> 温暖陪伴式大模型微调 &nbsp;•&nbsp; 地理围栏行程足迹合并 &nbsp;•&nbsp; Expo React Native 跨端开发</font>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Exhibit No. 08: GitKeep -->
+<table width="100%" border="1" cellpadding="12" cellspacing="0" bordercolor="#3d281a">
+  <tr bgcolor="#fff8eb">
+    <td align="center" colspan="2">
+      <img src="assets/appicons/gitkeep.png" width="64" height="64" style="border-radius: 14px; margin-bottom: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <br/>
+      <font size="1" color="#8e7462" class="mono">—— EXHIBIT NO. 08 ——</font><br/>
+      <font size="4" color="#3d281a" face="Georgia, serif"><b>📂 GitKeep</b></font><br/>
+      <font size="2" color="#8e7462"><i>Medium: macOS Native App, SwiftUI</i> &nbsp;|&nbsp; <i>Year: 2026</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#ffffff">
+      <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
+      轻量级 macOS 菜单栏Git仓库管理工具。一键清理本地git仓库冗余文件、快速创建.gitkeep占位文件，保持项目目录结构整洁。原生SwiftUI开发，极简无打扰，常驻菜单栏。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[NATIVE_MAC]
+framework = "SwiftUI.AppKit"
+menu_bar_only = true
+launch_at_login = "supported"
+
+[FEATURES]
+batch_create_gitkeep = true
+clean_ds_store = true
+repo_overview = "quick_view"
+        </pre>
+      </details>
+    </td>
+    <td width="50%" valign="top" bgcolor="#fffcf6">
+      <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
+      自动扫描文件夹内所有空目录批量生成.gitkeep，一键清除项目中所有.DS_Store文件，支持拖拽仓库快速查看git状态。纯原生开发，内存占用不到10MB，启动即开即用。
+    </td>
+  </tr>
+  <tr bgcolor="#fffdfa">
+    <td colspan="2" align="center">
+      <font size="2" color="#3d281a"><b>展品特征：</b> 菜单栏常驻 &nbsp;•&nbsp; 批量空目录占位 &nbsp;•&nbsp; 极简原生性能</font>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Exhibit No. 09: TodoVoice -->
+<table width="100%" border="1" cellpadding="12" cellspacing="0" bordercolor="#3d281a">
+  <tr bgcolor="#fff8eb">
+    <td align="center" colspan="2">
+      <img src="assets/appicons/todo.png" width="64" height="64" style="border-radius: 14px; margin-bottom: 8px; box-shadow: 0 4px 12px rgba(246, 201, 77, 0.3);">
+      <br/>
+      <font size="1" color="#8e7462" class="mono">—— EXHIBIT NO. 09 ——</font><br/>
+      <font size="4" color="#3d281a" face="Georgia, serif"><b>📝 小豆语音待办</b></font><br/>
+      <font size="2" color="#8e7462"><i>Medium: iOS Native App, SwiftUI, SwiftData, App Intents</i> &nbsp;|&nbsp; <i>Year: 2026</i></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#ffffff">
+      <font size="2" color="#8e7462"><b>【 馆藏解析 / Curator's Note 】</b></font><br/>
+      温暖奶油黄风格语音待办App，按住说话自动转文字，智能拆分多条待办，识别自然语言时间设置本地提醒。支持绑定iPhone操作按钮，任何界面一键唤起录音，灵感不等待。
+      <br/><br/>
+      <details>
+        <summary><font size="2" color="#7d685c"><b>⚙️ Diagnostics / 运行参数详情</b></font></summary>
+        <br/>
+        <pre>
+[SPEECH_STACK]
+recognizer = "Apple.Speech.Framework"
+on_device_recognition = "preferred"
+audio_codec = "AVAudioPCM"
+
+[NLP_ENGINE]
+date_detector = "NSDataDetector"
+sentence_split = "NLTokenizer"
+multi_item_parse = "heuristic_semantic"
+
+[INTEGRATION]
+app_intents = true
+action_button_bind = true
+local_notification = "UNUserNotificationCenter"
+        </pre>
+      </details>
+    </td>
+    <td width="50%" valign="top" bgcolor="#fffcf6">
+      <font size="2" color="#8e7462"><b>【 精妙细节 / Highlight Details 】</b></font><br/>
+      采用与Lifelogs一致的温暖奶油黄设计语言，奶油黄渐变背景+金黄色胶囊按钮+奶白色圆角卡片。智能解析"明天下午3点开会 顺便帮我买咖啡"这类句子自动拆分成两条独立待办并分别提取时间。全本地处理不上云，隐私优先。
+    </td>
+  </tr>
+  <tr bgcolor="#fffdfa">
+    <td colspan="2" align="center">
+      <font size="2" color="#3d281a"><b>展品特征：</b> 语音智能拆条 &nbsp;•&nbsp; 操作按钮一键唤起 &nbsp;•&nbsp; 奶油黄治愈UI &nbsp;•&nbsp; <a href="https://github.com/isdou/TodoVoice" style="color:#F6C94D; text-decoration: none;">Open Source</a></font>
     </td>
   </tr>
 </table>
