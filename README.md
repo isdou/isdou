@@ -17,33 +17,39 @@
 ## 📱 My Apps / 我的作品
 
 <div align="center">
-<p>
 
-<a href="https://apps.apple.com/cn/app/lifelogs-%E5%90%8C%E4%B8%80%E5%A4%A9%E5%A4%9A%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BD%A0/id6478393048">
-  <img src="assets/appicons/lifelogs.png" width="110" height="110" alt="Lifelogs" style="border-radius: 24px; margin: 12px;">
-  <br/>
-  <sub><b>Lifelogs</b></sub>
-</a>
+<table>
+  <tr>
+    <td align="center" width="140">
+      <a href="https://apps.apple.com/cn/app/lifelogs-%E5%90%8C%E4%B8%80%E5%A4%A9%E5%A4%9A%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BD%A0/id6478393048">
+        <img src="assets/appicons/lifelogs.png" width="96" height="96" style="border-radius: 22px;">
+      </a>
+      <br/>
+      <sub>Lifelogs</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://github.com/isdou/TodoVoice">
+        <img src="assets/appicons/todo.png" width="96" height="96" style="border-radius: 22px;">
+      </a>
+      <br/>
+      <sub>小豆语音待办</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="">
+        <img src="assets/appicons/xiaodou.png" width="96" height="96" style="border-radius: 22px;">
+      </a>
+      <br/>
+      <sub>小豆 AI</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="">
+        <img src="assets/appicons/gitkeep.png" width="96" height="96" style="border-radius: 22px;">
+      </a>
+      <br/>
+      <sub>GitKeep</sub>
+    </td>
+  </tr>
+</table>
 
-<a href="https://github.com/isdou/TodoVoice">
-  <img src="assets/appicons/todo.png" width="110" height="110" alt="小豆语音待办" style="border-radius: 24px; margin: 12px;">
-  <br/>
-  <sub><b>小豆语音待办</b></sub>
-</a>
-
-<a href="">
-  <img src="assets/appicons/xiaodou.png" width="110" height="110" alt="小豆AI" style="border-radius: 24px; margin: 12px;">
-  <br/>
-  <sub><b>小豆 AI</b></sub>
-</a>
-
-<a href="">
-  <img src="assets/appicons/gitkeep.png" width="110" height="110" alt="GitKeep" style="border-radius: 24px; margin: 12px;">
-  <br/>
-  <sub><b>GitKeep</b></sub>
-</a>
-
-</p>
 </div>
-
 
