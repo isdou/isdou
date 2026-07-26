@@ -1,6 +1,6 @@
-<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="softShadow" x="-10" y="-10" width="920" height="290" filterUnits="userSpaceOnUse">
+    <filter id="softShadow" x="-10" y="-10" width="920" height="270" filterUnits="userSpaceOnUse">
       <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#7A4E20" flood-opacity="0.1" />
     </filter>
     <style>
@@ -9,7 +9,7 @@
     </style>
   </defs>
 
-  <rect x="5" y="5" width="880" height="240" rx="20" fill="#FFFEFA" stroke="#C9B8A3" stroke-width="2" filter="url(#softShadow)" />
+  <rect x="5" y="5" width="880" height="220" rx="20" fill="#FFFEFA" stroke="#C9B8A3" stroke-width="2" filter="url(#softShadow)" />
   <line x1="5" y1="44" x2="885" y2="44" stroke="#EAD9C5" stroke-width="1.5" />
   
   <circle cx="28" cy="24" r="7" fill="#F49A9D" />
@@ -17,58 +17,59 @@
   <circle cx="76" cy="24" r="7" fill="#82B6DD" />
   <text x="450" y="29" fill="#857367" font-size="13" font-weight="500" class="mono" text-anchor="middle">豌豆@DOU.OS:~ /profile</text>
 
-  <!-- Left section - all text stays left of divider -->
-  <rect x="38" y="68" width="78" height="62" rx="10" fill="#5D4037" />
-  <rect x="44" y="74" width="66" height="46" rx="5" fill="#FFEB9E" />
-  <line x1="51" y1="85" x2="103" y2="85" stroke="#FFD24A" stroke-width="3" stroke-linecap="round" />
-  <line x1="51" y1="96" x2="90" y2="96" stroke="#F6C94D" stroke-width="3" stroke-linecap="round" />
-  <line x1="51" y1="107" x2="98" y2="107" stroke="#E8B840" stroke-width="3" stroke-linecap="round" />
-  <path d="M 63 120 L 87 120 L 92 128 L 58 128 Z" fill="#5D4037" />
-  <circle cx="106" cy="114" r="2" fill="#7CC98C" />
+  <!-- Left: wider space for text, all content LEFT of 280px divider -->
+  <rect x="40" y="70" width="70" height="56" rx="10" fill="#5D4037" />
+  <rect x="46" y="76" width="58" height="40" rx="5" fill="#FFEB9E" />
+  <line x1="53" y1="86" x2="97" y2="86" stroke="#FFD24A" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="53" y1="95" x2="85" y2="95" stroke="#F6C94D" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="53" y1="104" x2="92" y2="104" stroke="#E8B840" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 65 116 L 85 116 L 89 124 L 61 124 Z" fill="#5D4037" />
+  <circle cx="102" cy="110" r="2" fill="#7CC98C" />
 
-  <text x="135" y="90" fill="#403027" font-size="24" font-weight="700" class="rounded">豌豆 · isdou</text>
-  <text x="135" y="118" fill="#857367" font-size="16" class="rounded">AI PM</text>
-  <text x="135" y="145" fill="#6B5B4F" font-size="12" class="mono">[INTJ-A] · [Indie Hacker] · [Beijing]</text>
+  <text x="130" y="88" fill="#403027" font-size="24" font-weight="700" class="rounded">豌豆 · isdou</text>
+  <text x="130" y="115" fill="#857367" font-size="16" class="rounded">AI PM</text>
+  <text x="130" y="140" fill="#6B5B4F" font-size="12" class="mono">[INTJ-A] · [Indie Hacker] · [Beijing]</text>
 
-  <!-- Move divider far enough right that left text doesn't overlap -->
-  <line x1="290" y1="50" x2="290" y2="240" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
+  <!-- Divider moved FAR right, all left text ends before here -->
+  <line x1="370" y1="50" x2="370" y2="215" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
 
-  <!-- Right section stats - start after divider -->
-  <text x="315" y="75" fill="#857367" font-size="11" font-weight="600" class="mono">SKILLS:</text>
+  <!-- Right: Skills - shorter labels so they fit -->
+  <text x="390" y="75" fill="#857367" font-size="11" font-weight="600" class="mono">SKILLS:</text>
 
-  <text x="315" y="98" fill="#403027" font-size="12" font-weight="500" class="rounded">AI Agent &amp; Product Architecture</text>
-  <rect x="315" y="105" width="210" height="10" rx="5" fill="#F0E6D6" />
-  <rect x="315" y="105" width="200" height="10" rx="5" fill="#FFD24A" />
-  <text x="538" y="114" fill="#403027" font-size="11" font-weight="600" class="mono">95%</text>
+  <text x="390" y="98" fill="#403027" font-size="12" font-weight="500" class="rounded">AI Product</text>
+  <rect x="390" y="105" width="125" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="390" y="105" width="118" height="10" rx="5" fill="#FFD24A" />
+  <text x="528" y="114" fill="#403027" font-size="11" font-weight="600" class="mono">95%</text>
 
-  <text x="315" y="135" fill="#403027" font-size="12" font-weight="500" class="rounded">iOS SwiftUI Native Development</text>
-  <rect x="315" y="142" width="210" height="10" rx="5" fill="#F0E6D6" />
-  <rect x="315" y="142" width="185" height="10" rx="5" fill="#82B6DD" />
-  <text x="538" y="151" fill="#403027" font-size="11" font-weight="600" class="mono">88%</text>
+  <text x="390" y="135" fill="#403027" font-size="12" font-weight="500" class="rounded">iOS SwiftUI</text>
+  <rect x="390" y="142" width="125" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="390" y="142" width="110" height="10" rx="5" fill="#82B6DD" />
+  <text x="528" y="151" fill="#403027" font-size="11" font-weight="600" class="mono">88%</text>
 
-  <text x="315" y="172" fill="#403027" font-size="12" font-weight="500" class="rounded">Full-Stack (React/Vite/Node)</text>
-  <rect x="315" y="179" width="210" height="10" rx="5" fill="#F0E6D6" />
-  <rect x="315" y="179" width="172" height="10" rx="5" fill="#F49A9D" />
-  <text x="538" y="188" fill="#403027" font-size="11" font-weight="600" class="mono">82%</text>
+  <text x="390" y="172" fill="#403027" font-size="12" font-weight="500" class="rounded">Full-Stack</text>
+  <rect x="390" y="179" width="125" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="390" y="179" width="102" height="10" rx="5" fill="#F49A9D" />
+  <text x="528" y="188" fill="#403027" font-size="11" font-weight="600" class="mono">82%</text>
 
-  <rect x="570" y="68" width="295" height="125" rx="12" fill="#3E2C22" />
-  <text x="588" y="92" fill="#7CC98C" font-size="11" class="mono">&gt; cat douos_status.conf</text>
-  <text x="588" y="112" fill="#FFFFFF" font-size="11.5" class="mono">Status: ONLINE (running)</text>
-  <text x="588" y="132" fill="#FFDF6E" font-size="11.5" class="mono">Core: B2B/B2C AI Agent Tools</text>
-  <text x="588" y="152" fill="#8EC0E4" font-size="11.5" class="mono">Motto: 日常有回应，生活有线索</text>
-  <rect x="823" y="143" width="7" height="11" fill="#7CC98C" opacity="0.9" />
-  <circle cx="846" cy="176" r="3" fill="#7CC98C" />
-  <text x="588" y="176" fill="#A8998C" font-size="9.5" class="mono">[DOU.OS KERNEL VERIFIED]</text>
+  <!-- Terminal - moved to fill right space -->
+  <rect x="545" y="68" width="315" height="118" rx="12" fill="#3E2C22" />
+  <text x="565" y="92" fill="#7CC98C" font-size="11" class="mono">&gt; cat douos_status.conf</text>
+  <text x="565" y="112" fill="#FFFFFF" font-size="11.5" class="mono">Status: ONLINE (running)</text>
+  <text x="565" y="132" fill="#FFDF6E" font-size="11.5" class="mono">Core: AI Agent Tools</text>
+  <text x="565" y="152" fill="#8EC0E4" font-size="11.5" class="mono">Motto: 日常有回应，生活有线索</text>
+  <rect x="820" y="143" width="7" height="11" fill="#7CC98C" opacity="0.9" />
+  <circle cx="840" cy="170" r="3" fill="#7CC98C" />
+  <text x="565" y="172" fill="#A8998C" font-size="9.5" class="mono">[DOU.OS KERNEL VERIFIED]</text>
 
-  <!-- Only two buttons: isdou.info and Email -->
+  <!-- Only two buttons -->
   <g filter="url(#softShadow)">
-    <rect x="38" y="205" width="115" height="28" rx="14" fill="#FFD24A" />
-    <text x="95.5" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌐 isdou.info</text>
+    <rect x="40" y="188" width="115" height="26" rx="13" fill="#FFD24A" />
+    <text x="97.5" y="205" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌐 isdou.info</text>
   </g>
 
   <g filter="url(#softShadow)">
-    <rect x="165" y="205" width="115" height="28" rx="14" fill="#F49A9D" />
-    <text x="222.5" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">📮 邮箱</text>
+    <rect x="167" y="188" width="90" height="26" rx="13" fill="#F49A9D" />
+    <text x="212" y="205" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">📮 邮箱</text>
   </g>
 
 </svg>
