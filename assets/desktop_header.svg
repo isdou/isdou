@@ -9,21 +9,15 @@
     </style>
   </defs>
 
-  <!-- Window frame - warm brown border instead of harsh black, soft shadow -->
   <rect x="5" y="5" width="880" height="240" rx="20" fill="#FFFEFA" stroke="#C9B8A3" stroke-width="2" filter="url(#softShadow)" />
-
-  <!-- Title bar separator line -->
   <line x1="5" y1="44" x2="885" y2="44" stroke="#EAD9C5" stroke-width="1.5" />
   
-  <!-- Window dots - softer colors, no hard outline -->
   <circle cx="28" cy="24" r="7" fill="#F49A9D" />
   <circle cx="52" cy="24" r="7" fill="#FFDF6E" />
   <circle cx="76" cy="24" r="7" fill="#82B6DD" />
-
-  <!-- Window title - centered, softer color -->
   <text x="450" y="29" fill="#857367" font-size="13" font-weight="500" class="mono" text-anchor="middle">豌豆@DOU.OS:~ /profile</text>
 
-  <!-- Left: Monitor icon - warm yellow style -->
+  <!-- Left section - all text stays left of divider -->
   <rect x="38" y="68" width="78" height="62" rx="10" fill="#5D4037" />
   <rect x="44" y="74" width="66" height="46" rx="5" fill="#FFEB9E" />
   <line x1="51" y1="85" x2="103" y2="85" stroke="#FFD24A" stroke-width="3" stroke-linecap="round" />
@@ -32,64 +26,49 @@
   <path d="M 63 120 L 87 120 L 92 128 L 58 128 Z" fill="#5D4037" />
   <circle cx="106" cy="114" r="2" fill="#7CC98C" />
 
-  <!-- Profile text - aligned correctly, all within left section -->
-  <text x="135" y="88" fill="#403027" font-size="22" font-weight="700" class="rounded">豌豆 · isdou</text>
-  <text x="135" y="110" fill="#857367" font-size="13" class="rounded">AI Product Manager &amp; Indie Developer</text>
-  <text x="135" y="132" fill="#6B5B4F" font-size="12" class="mono">[INTJ-A] · [Indie Hacker] · [Beijing]</text>
+  <text x="135" y="90" fill="#403027" font-size="24" font-weight="700" class="rounded">豌豆 · isdou</text>
+  <text x="135" y="118" fill="#857367" font-size="16" class="rounded">AI PM</text>
+  <text x="135" y="145" fill="#6B5B4F" font-size="12" class="mono">[INTJ-A] · [Indie Hacker] · [Beijing]</text>
 
-  <!-- Divider - adjust position so content doesn't overflow -->
-  <line x1="335" y1="50" x2="335" y2="240" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
+  <!-- Move divider far enough right that left text doesn't overlap -->
+  <line x1="290" y1="50" x2="290" y2="240" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
 
-  <!-- Right section: Stats bars - softer colors, warm theme -->
-  <text x="355" y="75" fill="#857367" font-size="11" font-weight="600" class="mono">SKILLS:</text>
+  <!-- Right section stats - start after divider -->
+  <text x="315" y="75" fill="#857367" font-size="11" font-weight="600" class="mono">SKILLS:</text>
 
-  <!-- Bar 1: AI Product -->
-  <text x="355" y="98" fill="#403027" font-size="12" font-weight="500" class="rounded">AI Agent &amp; Product Architecture</text>
-  <rect x="355" y="105" width="205" height="10" rx="5" fill="#F0E6D6" />
-  <rect x="355" y="105" width="195" height="10" rx="5" fill="#FFD24A" />
-  <text x="573" y="114" fill="#403027" font-size="11" font-weight="600" class="mono">95%</text>
+  <text x="315" y="98" fill="#403027" font-size="12" font-weight="500" class="rounded">AI Agent &amp; Product Architecture</text>
+  <rect x="315" y="105" width="210" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="315" y="105" width="200" height="10" rx="5" fill="#FFD24A" />
+  <text x="538" y="114" fill="#403027" font-size="11" font-weight="600" class="mono">95%</text>
 
-  <!-- Bar 2: iOS Development -->
-  <text x="355" y="135" fill="#403027" font-size="12" font-weight="500" class="rounded">iOS SwiftUI Native Development</text>
-  <rect x="355" y="142" width="205" height="10" rx="5" fill="#F0E6D6" />
-  <rect x="355" y="142" width="180" height="10" rx="5" fill="#82B6DD" />
-  <text x="573" y="151" fill="#403027" font-size="11" font-weight="600" class="mono">88%</text>
+  <text x="315" y="135" fill="#403027" font-size="12" font-weight="500" class="rounded">iOS SwiftUI Native Development</text>
+  <rect x="315" y="142" width="210" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="315" y="142" width="185" height="10" rx="5" fill="#82B6DD" />
+  <text x="538" y="151" fill="#403027" font-size="11" font-weight="600" class="mono">88%</text>
 
-  <!-- Bar 3: Full Stack -->
-  <text x="355" y="172" fill="#403027" font-size="12" font-weight="500" class="rounded">Full-Stack (React/Vite/Node)</text>
-  <rect x="355" y="179" width="205" height="10" rx="5" fill="#F0E6D6" />
-  <rect x="355" y="179" width="168" height="10" rx="5" fill="#F49A9D" />
-  <text x="573" y="188" fill="#403027" font-size="11" font-weight="600" class="mono">82%</text>
+  <text x="315" y="172" fill="#403027" font-size="12" font-weight="500" class="rounded">Full-Stack (React/Vite/Node)</text>
+  <rect x="315" y="179" width="210" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="315" y="179" width="172" height="10" rx="5" fill="#F49A9D" />
+  <text x="538" y="188" fill="#403027" font-size="11" font-weight="600" class="mono">82%</text>
 
-  <!-- Terminal box - warm dark brown instead of harsh black, rounded corners -->
-  <rect x="600" y="68" width="260" height="125" rx="12" fill="#3E2C22" />
-  <text x="618" y="92" fill="#7CC98C" font-size="11" class="mono">&gt; cat douos_status.conf</text>
-  <text x="618" y="112" fill="#FFFFFF" font-size="11.5" class="mono">Status: ONLINE (running)</text>
-  <text x="618" y="132" fill="#FFDF6E" font-size="11.5" class="mono">Core: B2B/B2C AI Agent Tools</text>
-  <text x="618" y="152" fill="#8EC0E4" font-size="11.5" class="mono">Motto: 日常有回应，生活有线索</text>
-  <rect x="818" y="143" width="7" height="11" fill="#7CC98C" opacity="0.9" />
-  <circle cx="840" cy="176" r="3" fill="#7CC98C" />
-  <text x="618" y="176" fill="#A8998C" font-size="9.5" class="mono">[DOU.OS KERNEL VERIFIED]</text>
+  <rect x="570" y="68" width="295" height="125" rx="12" fill="#3E2C22" />
+  <text x="588" y="92" fill="#7CC98C" font-size="11" class="mono">&gt; cat douos_status.conf</text>
+  <text x="588" y="112" fill="#FFFFFF" font-size="11.5" class="mono">Status: ONLINE (running)</text>
+  <text x="588" y="132" fill="#FFDF6E" font-size="11.5" class="mono">Core: B2B/B2C AI Agent Tools</text>
+  <text x="588" y="152" fill="#8EC0E4" font-size="11.5" class="mono">Motto: 日常有回应，生活有线索</text>
+  <rect x="823" y="143" width="7" height="11" fill="#7CC98C" opacity="0.9" />
+  <circle cx="846" cy="176" r="3" fill="#7CC98C" />
+  <text x="588" y="176" fill="#A8998C" font-size="9.5" class="mono">[DOU.OS KERNEL VERIFIED]</text>
 
-  <!-- Bottom buttons - all 4 buttons kept: isdou.info, LifeLogs, isdou.site, Email -->
+  <!-- Only two buttons: isdou.info and Email -->
   <g filter="url(#softShadow)">
-    <rect x="38" y="205" width="110" height="28" rx="14" fill="#FFD24A" />
-    <text x="93" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌐 isdou.info</text>
+    <rect x="38" y="205" width="115" height="28" rx="14" fill="#FFD24A" />
+    <text x="95.5" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌐 isdou.info</text>
   </g>
 
   <g filter="url(#softShadow)">
-    <rect x="160" y="205" width="98" height="28" rx="14" fill="#6BB255" />
-    <text x="209" y="223" fill="#fff" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌱 LifeLogs</text>
-  </g>
-
-  <g filter="url(#softShadow)">
-    <rect x="270" y="205" width="110" height="28" rx="14" fill="#82B6DD" />
-    <text x="325" y="223" fill="#fff" font-size="12" font-weight="600" class="rounded" text-anchor="middle">📝 isdou.site</text>
-  </g>
-
-  <g filter="url(#softShadow)">
-    <rect x="392" y="205" width="135" height="28" rx="14" fill="#F49A9D" />
-    <text x="459.5" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">✉️ isdou.exe@gmail.com</text>
+    <rect x="165" y="205" width="115" height="28" rx="14" fill="#F49A9D" />
+    <text x="222.5" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">📮 邮箱</text>
   </g>
 
 </svg>
