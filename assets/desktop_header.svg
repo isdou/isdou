@@ -1,86 +1,95 @@
-<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="softShadow" x="-10" y="-10" width="920" height="280" filterUnits="userSpaceOnUse">
-      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#7A4E20" flood-opacity="0.08" />
+    <filter id="softShadow" x="-10" y="-10" width="920" height="290" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#7A4E20" flood-opacity="0.1" />
     </filter>
     <style>
-      .rounded { font-family: -apple-system, "SF Pro Rounded", "PingFang SC", "Helvetica Neue", sans-serif; }
+      .rounded { font-family: -apple-system, "SF Pro Rounded", "PingFang SC", sans-serif; }
       .mono { font-family: "SF Mono", Menlo, monospace; }
     </style>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="240">
-      <stop offset="0%" stop-color="#FFFDF8" />
-      <stop offset="100%" stop-color="#FFFAF0" />
-    </linearGradient>
   </defs>
 
-  <!-- Soft warm card background (no hard pixel border) -->
-  <rect x="20" y="12" width="860" height="216" rx="28" fill="url(#bgGrad)" stroke="#EFE2CC" stroke-width="1.5" filter="url(#softShadow)" />
+  <!-- Window frame - warm brown border instead of harsh black, soft shadow -->
+  <rect x="5" y="5" width="880" height="240" rx="20" fill="#FFFEFA" stroke="#C9B8A3" stroke-width="2" filter="url(#softShadow)" />
 
-  <!-- Window controls: soft rounded dots, no hard outline -->
-  <circle cx="52" cy="40" r="7" fill="#FFB5BA" />
-  <circle cx="78" cy="40" r="7" fill="#FFE180" />
-  <circle cx="104" cy="40" r="7" fill="#8EC0E4" />
-
-  <!-- Window title, softer, centered -->
-  <text x="450" y="45" fill="#ADA194" font-size="13" class="mono" text-anchor="middle">dou@os ~ profile</text>
-
-  <!-- Left side: avatar + name -->
-  <!-- Cute little monitor icon in warm yellow, soft style -->
-  <rect x="50" y="70" width="84" height="64" rx="16" fill="#FFEB9E" />
-  <rect x="58" y="78" width="68" height="44" rx="8" fill="#FFFDF8" />
-  <line x1="65" y1="88" x2="119" y2="88" stroke="#FFD24A" stroke-width="3" stroke-linecap="round" />
-  <line x1="65" y1="99" x2="100" y2="99" stroke="#F6C94D" stroke-width="3" stroke-linecap="round" />
-  <line x1="65" y1="110" x2="110" y2="110" stroke="#E8B840" stroke-width="3" stroke-linecap="round" />
-  <rect x="78" y="134" width="28" height="10" rx="5" fill="#F6C94D" />
-  <rect x="68" y="140" width="48" height="6" rx="3" fill="#FFE180" />
-  <circle cx="122" cy="122" r="3" fill="#7CC98C" />
-
-  <!-- Name & title -->
-  <text x="160" y="92" fill="#403027" font-size="26" font-weight="700" class="rounded">豌豆 · isdou</text>
-  <text x="160" y="115" fill="#857367" font-size="15" class="rounded">AI Product Manager &amp; Indie Developer</text>
+  <!-- Title bar separator line -->
+  <line x1="5" y1="44" x2="885" y2="44" stroke="#EAD9C5" stroke-width="1.5" />
   
-  <!-- Tags, soft pill style -->
-  <rect x="160" y="126" rx="10" ry="10" width="54" height="22" fill="#FFEB9E" />
-  <text x="187" y="142" fill="#8B6914" font-size="11" font-weight="600" class="rounded" text-anchor="middle">INTJ-A</text>
-  <rect x="222" y="126" rx="10" ry="10" width="80" height="22" fill="#FFEB9E" />
-  <text x="262" y="142" fill="#8B6914" font-size="11" font-weight="600" class="rounded" text-anchor="middle">Indie Hacker</text>
-  <rect x="310" y="126" rx="10" ry="10" width="64" height="22" fill="#FFEB9E" />
-  <text x="342" y="142" fill="#8B6914" font-size="11" font-weight="600" class="rounded" text-anchor="middle">Beijing 🏙️</text>
+  <!-- Window dots - softer colors, no hard outline -->
+  <circle cx="28" cy="24" r="7" fill="#F49A9D" />
+  <circle cx="52" cy="24" r="7" fill="#FFDF6E" />
+  <circle cx="76" cy="24" r="7" fill="#82B6DD" />
 
-  <!-- Divider line, soft warm color -->
-  <line x1="400" y1="70" x2="400" y2="180" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
+  <!-- Window title - centered, softer color -->
+  <text x="450" y="29" fill="#857367" font-size="13" font-weight="500" class="mono" text-anchor="middle">豌豆@DOU.OS:~ /profile</text>
 
-  <!-- Right side: warm status card, NO more black terminal! -->
-  <rect x="430" y="68" width="280" height="118" rx="20" fill="#FFFAF0" stroke="#EFE2CC" stroke-width="1" />
-  <text x="452" y="93" fill="#3C9B55" font-size="12" font-weight="600" class="mono">● online</text>
-  
-  <text x="452" y="118" fill="#403027" font-size="14" class="rounded">Philosophy: <tspan font-weight="600">轻软、安静、有用</tspan></text>
-  <text x="452" y="140" fill="#403027" font-size="14" class="rounded">Building: <tspan font-weight="600">iOS Apps · AI Tools</tspan></text>
-  <text x="452" y="162" fill="#857367" font-size="13" class="rounded">Motto: 日常有回应，生活有线索</text>
+  <!-- Left: Monitor icon - warm yellow style -->
+  <rect x="38" y="68" width="78" height="62" rx="10" fill="#5D4037" />
+  <rect x="44" y="74" width="66" height="46" rx="5" fill="#FFEB9E" />
+  <line x1="51" y1="85" x2="103" y2="85" stroke="#FFD24A" stroke-width="3" stroke-linecap="round" />
+  <line x1="51" y1="96" x2="90" y2="96" stroke="#F6C94D" stroke-width="3" stroke-linecap="round" />
+  <line x1="51" y1="107" x2="98" y2="107" stroke="#E8B840" stroke-width="3" stroke-linecap="round" />
+  <path d="M 63 120 L 87 120 L 92 128 L 58 128 Z" fill="#5D4037" />
+  <circle cx="106" cy="114" r="2" fill="#7CC98C" />
 
-  <!-- Cute xiaodou avatar on the right, matches app icon style -->
-  <circle cx="790" cy="128" r="50" fill="#FFD24A" opacity="0.15" />
-  <ellipse cx="790" cy="132" rx="40" ry="44" fill="#FFEB9E" />
-  <ellipse cx="778" cy="120" rx="5" ry="6" fill="#403027" />
-  <ellipse cx="802" cy="120" rx="5" ry="6" fill="#403027" />
-  <circle cx="776" cy="136" r="7" fill="#FFB5BA" opacity="0.6" />
-  <circle cx="804" cy="136" r="7" fill="#FFB5BA" opacity="0.6" />
-  <path d="M 778 142 Q 790 154 802 142" stroke="#403027" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <!-- Profile text - aligned correctly, all within left section -->
+  <text x="135" y="88" fill="#403027" font-size="22" font-weight="700" class="rounded">豌豆 · isdou</text>
+  <text x="135" y="110" fill="#857367" font-size="13" class="rounded">AI Product Manager &amp; Indie Developer</text>
+  <text x="135" y="132" fill="#6B5B4F" font-size="12" class="mono">[INTJ-A] · [Indie Hacker] · [Beijing]</text>
 
-  <!-- Bottom capsule buttons, warm colors, soft shadows, no hard pixel outline -->
+  <!-- Divider - adjust position so content doesn't overflow -->
+  <line x1="335" y1="50" x2="335" y2="240" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
+
+  <!-- Right section: Stats bars - softer colors, warm theme -->
+  <text x="355" y="75" fill="#857367" font-size="11" font-weight="600" class="mono">SKILLS:</text>
+
+  <!-- Bar 1: AI Product -->
+  <text x="355" y="98" fill="#403027" font-size="12" font-weight="500" class="rounded">AI Agent &amp; Product Architecture</text>
+  <rect x="355" y="105" width="205" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="355" y="105" width="195" height="10" rx="5" fill="#FFD24A" />
+  <text x="573" y="114" fill="#403027" font-size="11" font-weight="600" class="mono">95%</text>
+
+  <!-- Bar 2: iOS Development -->
+  <text x="355" y="135" fill="#403027" font-size="12" font-weight="500" class="rounded">iOS SwiftUI Native Development</text>
+  <rect x="355" y="142" width="205" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="355" y="142" width="180" height="10" rx="5" fill="#82B6DD" />
+  <text x="573" y="151" fill="#403027" font-size="11" font-weight="600" class="mono">88%</text>
+
+  <!-- Bar 3: Full Stack -->
+  <text x="355" y="172" fill="#403027" font-size="12" font-weight="500" class="rounded">Full-Stack (React/Vite/Node)</text>
+  <rect x="355" y="179" width="205" height="10" rx="5" fill="#F0E6D6" />
+  <rect x="355" y="179" width="168" height="10" rx="5" fill="#F49A9D" />
+  <text x="573" y="188" fill="#403027" font-size="11" font-weight="600" class="mono">82%</text>
+
+  <!-- Terminal box - warm dark brown instead of harsh black, rounded corners -->
+  <rect x="600" y="68" width="260" height="125" rx="12" fill="#3E2C22" />
+  <text x="618" y="92" fill="#7CC98C" font-size="11" class="mono">&gt; cat douos_status.conf</text>
+  <text x="618" y="112" fill="#FFFFFF" font-size="11.5" class="mono">Status: ONLINE (running)</text>
+  <text x="618" y="132" fill="#FFDF6E" font-size="11.5" class="mono">Core: B2B/B2C AI Agent Tools</text>
+  <text x="618" y="152" fill="#8EC0E4" font-size="11.5" class="mono">Motto: 日常有回应，生活有线索</text>
+  <rect x="818" y="143" width="7" height="11" fill="#7CC98C" opacity="0.9" />
+  <circle cx="840" cy="176" r="3" fill="#7CC98C" />
+  <text x="618" y="176" fill="#A8998C" font-size="9.5" class="mono">[DOU.OS KERNEL VERIFIED]</text>
+
+  <!-- Bottom buttons - all 4 buttons kept: isdou.info, LifeLogs, isdou.site, Email -->
   <g filter="url(#softShadow)">
-    <rect x="50" y="172" width="115" height="32" rx="16" fill="#FFD24A" />
-    <text x="107.5" y="193" fill="#403027" font-size="13" font-weight="600" class="rounded" text-anchor="middle">🌐 isdou.info</text>
+    <rect x="38" y="205" width="110" height="28" rx="14" fill="#FFD24A" />
+    <text x="93" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌐 isdou.info</text>
   </g>
 
   <g filter="url(#softShadow)">
-    <rect x="175" y="172" width="115" height="32" rx="16" fill="#8EC0E4" />
-    <text x="232.5" y="193" fill="#fff" font-size="13" font-weight="600" class="rounded" text-anchor="middle">📝 isdou.site</text>
+    <rect x="160" y="205" width="98" height="28" rx="14" fill="#6BB255" />
+    <text x="209" y="223" fill="#fff" font-size="12" font-weight="600" class="rounded" text-anchor="middle">🌱 LifeLogs</text>
   </g>
 
   <g filter="url(#softShadow)">
-    <rect x="300" y="172" width="80" height="32" rx="16" fill="#FFB5BA" />
-    <text x="340" y="193" fill="#403027" font-size="13" font-weight="600" class="rounded" text-anchor="middle">✉️ Email</text>
+    <rect x="270" y="205" width="110" height="28" rx="14" fill="#82B6DD" />
+    <text x="325" y="223" fill="#fff" font-size="12" font-weight="600" class="rounded" text-anchor="middle">📝 isdou.site</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="392" y="205" width="135" height="28" rx="14" fill="#F49A9D" />
+    <text x="459.5" y="223" fill="#403027" font-size="12" font-weight="600" class="rounded" text-anchor="middle">✉️ isdou.exe@gmail.com</text>
   </g>
 
 </svg>
