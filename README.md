@@ -3,16 +3,9 @@
 <!-- Header Banner -->
 <img width="100%" src="assets/desktop_header.svg"/>
 
-<br/>
-
-<!-- Social & Links -->
-[![Website](https://img.shields.io/badge/DOU.OS-isdou.info-ffd974?style=for-the-badge&logo=safari&logoColor=3d281a&labelColor=fff8eb&color=ffd974)](https://isdou.info)
-[![Live](https://img.shields.io/badge/Blog-isdou.site-6aa2d8?style=for-the-badge&logo=safari&logoColor=fff&labelColor=fff8eb&color=6aa2d8)](https://isdou.site)
-[![GitHub](https://img.shields.io/github/followers/isdou?style=for-the-badge&logo=github&labelColor=fff8eb&color=ef8f92)](https://github.com/isdou)
-
 </div>
 
----
+<br/>
 
 ## 📱 My Apps / 我的作品
 
