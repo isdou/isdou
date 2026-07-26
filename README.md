@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img width="100%" src="assets/desktop_header.svg"/>
+<img width="100%" src="assets/desktop_header.svg?v=2"/>
 
 </div>
 
