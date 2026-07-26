@@ -51,12 +51,21 @@
   <line x1="400" y1="70" x2="400" y2="180" stroke="#EFE3D2" stroke-width="1.5" stroke-dasharray="4 4" />
 
   <!-- Right side: warm status card, NO more black terminal! -->
-  <rect x="430" y="68" width="430" height="118" rx="20" fill="#FFFAF0" stroke="#EFE2CC" stroke-width="1" />
+  <rect x="430" y="68" width="280" height="118" rx="20" fill="#FFFAF0" stroke="#EFE2CC" stroke-width="1" />
   <text x="452" y="93" fill="#3C9B55" font-size="12" font-weight="600" class="mono">● online</text>
   
   <text x="452" y="118" fill="#403027" font-size="14" class="rounded">Philosophy: <tspan font-weight="600">轻软、安静、有用</tspan></text>
   <text x="452" y="140" fill="#403027" font-size="14" class="rounded">Building: <tspan font-weight="600">iOS Apps · AI Tools</tspan></text>
   <text x="452" y="162" fill="#857367" font-size="13" class="rounded">Motto: 日常有回应，生活有线索</text>
+
+  <!-- Cute xiaodou avatar on the right, matches app icon style -->
+  <circle cx="790" cy="128" r="50" fill="#FFD24A" opacity="0.15" />
+  <ellipse cx="790" cy="132" rx="40" ry="44" fill="#FFEB9E" />
+  <ellipse cx="778" cy="120" rx="5" ry="6" fill="#403027" />
+  <ellipse cx="802" cy="120" rx="5" ry="6" fill="#403027" />
+  <circle cx="776" cy="136" r="7" fill="#FFB5BA" opacity="0.6" />
+  <circle cx="804" cy="136" r="7" fill="#FFB5BA" opacity="0.6" />
+  <path d="M 778 142 Q 790 154 802 142" stroke="#403027" stroke-width="2.5" fill="none" stroke-linecap="round" />
 
   <!-- Bottom capsule buttons, warm colors, soft shadows, no hard pixel outline -->
   <g filter="url(#softShadow)">
