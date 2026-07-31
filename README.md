@@ -48,8 +48,14 @@
       <br/>
       <sub>GitKeep</sub>
     </td>
+    <td align="center" width="120">
+      <a href="https://github.com/isdou/1Key-Releases">
+        <img src="assets/appicons/1key.png" width="88" height="88" style="border-radius: 20px;">
+      </a>
+      <br/>
+      <sub>1Key</sub>
+    </td>
   </tr>
 </table>
 
 </div>
-
