@@ -3,8 +3,11 @@
 <!-- Header Banner -->
 <img width="100%" src="assets/desktop_header.svg?v=4"/>
 
-<!-- Terminal Hero -->
-<img width="100%" src="assets/terminal_profile.svg?v=1"/>
+# Hi, I'm 豌豆 (isdou) 👋
+
+**AI 产品经理 · 独立开发者**
+
+📦 ***Perspexi, concepi, creavi.*** — 洞察，构想，创造。
 
 [![Blog](https://img.shields.io/badge/Blog-isdou.info-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://isdou.info)
 [![X](https://img.shields.io/badge/X-@dou__dev-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/dou_dev)
