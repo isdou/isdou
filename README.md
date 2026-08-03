@@ -5,7 +5,9 @@
 
 # Hi, I'm 豌豆 (isdou) 👋
 
-**独立开发者 · 用 SwiftUI 和 AI 工具链打造小而美的产品**
+**AI 产品经理 · 独立开发者**
+
+📦 ***Perspexi, concepi, creavi.*** — 洞察，构想，创造。
 
 [![Blog](https://img.shields.io/badge/Blog-isdou.info-FF6B35?style=flat-square&logo=rss&logoColor=white)](https://isdou.info)
 [![X](https://img.shields.io/badge/X-@dou__dev-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/dou_dev)
