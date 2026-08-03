@@ -88,11 +88,9 @@
 | 项目 | 简介 | 技术栈 |
 | --- | --- | --- |
 | [**codeck**](https://github.com/isdou/codeck) | Codex 优先的上下文交接工具，一键接力到 Gemini / Claude Code / Antigravity | TypeScript · CLI |
-| [**wechat-radar**](https://github.com/isdou/wechat-radar) | 微信聊天情报看板：聚合群聊信号、话题、链接和趋势 | Python · 数据分析 |
 | [**GitKeep**](https://github.com/isdou/GitKeep) | 原生 macOS GitHub 仓库管理器，玻璃拟态文件夹卡片 + 分组笔记 | SwiftUI · macOS |
 | [**joycon-vibe**](https://github.com/isdou/joycon-vibe) | macOS 菜单栏 Joy-Con 控制器映射工具 | Swift · macOS |
 | [**MosaicPath**](https://github.com/isdou/MosaicPath) | 在一处浏览散落各处的图片，并 reveal 原始文件路径 | SwiftUI · macOS |
-| [**DoubanImageWall**](https://github.com/isdou/DoubanImageWall) | 生成豆瓣电影海报墙 / 音乐专辑封面墙 / 图书封面墙 | Python |
 | [**xiaodou-skill**](https://github.com/isdou/xiaodou-skill) | 「小豆」IP 文章封面图 + 四宫格知识配图一键生成器 | Agent Skill · 图像生成 |
 | [**aoleme-ui-skill**](https://github.com/isdou/aoleme-ui-skill) | Cyber Fantasy 风格 UI 生成 Agent Skill | Agent Skill · UI |
 
