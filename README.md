@@ -96,15 +96,6 @@
 
 <br/>
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=isdou&show_icons=true&hide_border=true&count_private=true&theme=default" alt="isdou's GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isdou&layout=compact&hide_border=true&langs_count=6" alt="Top Langs"/>
-</div>
-
-<br/>
-
 <div align="center">
   <sub>💡 大部分作品由 AI Pair Programming 完成 —— 想法是我的，代码是我们一起写的。</sub>
 </div>
