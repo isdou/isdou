@@ -81,20 +81,6 @@
 
 </div>
 
-<br/>
-
-## 🛠️ Open Source / 开源项目
-
-| 项目 | 简介 | 技术栈 |
-| --- | --- | --- |
-| [**codeck**](https://github.com/isdou/codeck) | Codex 优先的上下文交接工具，一键接力到 Gemini / Claude Code / Antigravity | TypeScript · CLI |
-| [**GitKeep**](https://github.com/isdou/GitKeep) | 原生 macOS GitHub 仓库管理器，玻璃拟态文件夹卡片 + 分组笔记 | SwiftUI · macOS |
-| [**joycon-vibe**](https://github.com/isdou/joycon-vibe) | macOS 菜单栏 Joy-Con 控制器映射工具 | Swift · macOS |
-| [**MosaicPath**](https://github.com/isdou/MosaicPath) | 在一处浏览散落各处的图片，并 reveal 原始文件路径 | SwiftUI · macOS |
-| [**xiaodou-skill**](https://github.com/isdou/xiaodou-skill) | 「小豆」IP 文章封面图 + 四宫格知识配图一键生成器 | Agent Skill · 图像生成 |
-| [**aoleme-ui-skill**](https://github.com/isdou/aoleme-ui-skill) | Cyber Fantasy 风格 UI 生成 Agent Skill | Agent Skill · UI |
-
-<br/>
 
 <div align="center">
   <sub>💡 大部分作品由 AI Pair Programming 完成 —— 想法是我的，代码是我们一起写的。</sub>
