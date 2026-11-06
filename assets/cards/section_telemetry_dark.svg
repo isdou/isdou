@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 40" width="100%" height="40" fill="none">
+  <text x="0" y="22" fill="#FFFFFF" font-family="'SF Mono', 'Space Mono', Menlo, monospace" font-size="13" font-weight="700" letter-spacing="0.08em">// 02 AI COMPUTE TELEMETRY</text>
+  <text x="840" y="22" fill="#737373" font-family="'SF Mono', 'Space Mono', Menlo, monospace" font-size="11" font-weight="500" text-anchor="end" letter-spacing="0.08em">[ REALTIME ACTIVITY ]</text>
+  <line x1="0" y1="36" x2="840" y2="36" stroke="#262626" stroke-width="1" />
+</svg>

@@ -1,6 +1,10 @@
 <div align="left">
 
-<img src="assets/cards/header.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/header_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/header_light.svg">
+  <img src="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/header.svg" width="100%" />
+</picture>
 
 <p align="left">
   <a href="https://isdou.info"><img src="assets/cards/btn_blog.svg" height="28" /></a>
@@ -12,7 +16,11 @@
 
 <br/>
 
-<img src="assets/cards/section_tracks.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/section_tracks_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/section_tracks_light.svg">
+  <img src="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/section_tracks.svg" width="100%" />
+</picture>
 
 <br/>
 
@@ -38,7 +46,11 @@
 
 <br/>
 
-<img src="assets/cards/section_telemetry.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/section_telemetry_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/section_telemetry_light.svg">
+  <img src="https://raw.githubusercontent.com/isdou/isdou/main/assets/cards/section_telemetry.svg" width="100%" />
+</picture>
 
 <br/>
 
@@ -48,7 +60,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/isdou/svg?theme=dark&template=graph&color=monochrome&today=1&tokens=compact&cost=compact">
     <source media="(prefers-color-scheme: light)" srcset="https://tokens.ci/api/embed/isdou/svg?theme=light&template=graph&color=monochrome&today=1&tokens=compact&cost=compact">
-    <img alt="Tokens Stats for @isdou" src="https://tokens.ci/api/embed/isdou/svg?theme=dark&template=graph&color=monochrome&today=1&tokens=compact&cost=compact" width="100%" />
+    <img alt="Tokens Stats for @isdou" src="https://tokens.ci/api/embed/isdou/svg?theme=light&template=graph&color=monochrome&today=1&tokens=compact&cost=compact" width="100%" />
   </picture>
 </a>
 
