@@ -21,7 +21,7 @@
 
 <br/>
 
-### // 01 FIVE TRACKS / 五大赛道代表作
+### // 01 FIVE TRACKS
 
 <table>
   <!-- TRACK 01: APP -> Lifelogs -->
@@ -56,7 +56,7 @@
       <a href="https://github.com/isdou/DouOS-Releases">
         <img src="assets/appicons/xiaodou.png" width="56" height="56" style="border-radius: 12px;"/>
       </a>
-      <br/><sub><b>[ 小豆 ]</b></sub>
+      <br/><sub><b>[ XIAODOU ]</b></sub>
     </td>
     <td width="80%" valign="top">
       <b><a href="https://github.com/isdou/DouOS-Releases">DOU.OS</a></b> <sub>[Creation OS]</sub><br/>
@@ -93,7 +93,7 @@
 
 <br/>
 
-### // 02 AI COMPUTE TELEMETRY / 算力与活体图谱
+### // 02 AI COMPUTE TELEMETRY
 
 <div align="center">
 
