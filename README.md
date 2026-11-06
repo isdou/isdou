@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img width="100%" src="assets/desktop_header.svg?v=4"/>
-
 # Hi, I'm dou 👋
 
 **AI 产品经理 · 独立开发者**
