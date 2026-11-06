@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 32" width="230" height="32" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: "SF Mono", "Space Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.05em; }
+      .btn-bg { fill: #141414; stroke: #262626; stroke-width: 1; }
+      .btn-bg:hover { stroke: #555555; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="228" height="30" rx="4" class="btn-bg" />
+  <text x="115" y="20" fill="#E5E5E5" text-anchor="middle" class="mono">● [ TRANSMIT: me@isdou.info ]</text>
+</svg>
