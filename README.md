@@ -38,9 +38,9 @@
 
 <a href="https://github.com/isdou/DouOS-Releases">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track3_douos_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track3_douos_light.svg">
-    <img alt="Track 03: DOU.OS — 个人 AI 创造操作系统" src="assets/cards/track3_douos_light.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track3_douos_dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track3_douos_light.svg?v=2">
+    <img alt="Track 03: DOU.OS — 原生 macOS 多模型创作工作台" src="assets/cards/track3_douos_light.svg?v=2" width="100%" />
   </picture>
 </a>
 
