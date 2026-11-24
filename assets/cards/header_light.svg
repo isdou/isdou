@@ -94,6 +94,6 @@
   </g>
 
   <!-- Right: Role & Motto (static identity block, bottom-aligned with ISDOU.) -->
-  <text x="840" y="48" fill="#0A0A0A" font-size="14" class="sans" font-weight="600" text-anchor="end" letter-spacing="0.02em">AI Product Manager · Indie Developer</text>
+  <text x="840" y="48" fill="#0A0A0A" font-size="14" class="sans" font-weight="600" text-anchor="end" letter-spacing="0.02em">AI PM · Indie Builder</text>
   <text x="840" y="72" fill="#52525B" font-size="11" class="mono" font-weight="500" text-anchor="end" letter-spacing="0.04em">PERSPEXI, CONCEPI, CREAVI.<tspan fill="#71717A" class="sans" letter-spacing="0.02em">  /  洞察，构想，创造。</tspan></text>
 </svg>
