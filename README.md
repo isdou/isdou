@@ -1,12 +1,12 @@
 <div align="left">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/header_dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="assets/cards/header_light.svg?v=3">
-  <img alt="ISDOU. — PERSPEXI, CONCEPI, CREAVI." src="assets/cards/header_light.svg?v=3" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/header_dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/header_light.svg?v=4">
+  <img alt="ISDOU. — AI Product Manager · Indie Developer" src="assets/cards/header_light.svg?v=4" width="100%" />
 </picture>
 
-<p align="left"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/role_label_dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="assets/cards/role_label_light.svg?v=3"><img alt="AI 产品经理 · 独立开发者" src="assets/cards/role_label_light.svg?v=3" height="28" /></picture>&nbsp;<a href="https://isdou.info"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/btn_blog_dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="assets/cards/btn_blog_light.svg?v=3"><img alt="Blog: isdou.info" src="assets/cards/btn_blog_light.svg?v=3" height="28" /></picture></a>&nbsp;<a href="https://x.com/dou_dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/btn_x_dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="assets/cards/btn_x_light.svg?v=3"><img alt="X: @dou_dev" src="assets/cards/btn_x_light.svg?v=3" height="28" /></picture></a>&nbsp;<a href="mailto:me@isdou.info"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/btn_mail_dark.svg?v=3"><source media="(prefers-color-scheme: light)" srcset="assets/cards/btn_mail_light.svg?v=3"><img alt="Email: me@isdou.info" src="assets/cards/btn_mail_light.svg?v=3" height="28" /></picture></a></p>
+<p align="left"><a href="https://isdou.info"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/btn_blog_dark.svg?v=4"><source media="(prefers-color-scheme: light)" srcset="assets/cards/btn_blog_light.svg?v=4"><img alt="Blog: isdou.info" src="assets/cards/btn_blog_light.svg?v=4" height="28" /></picture></a>&nbsp;<a href="https://x.com/dou_dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/btn_x_dark.svg?v=4"><source media="(prefers-color-scheme: light)" srcset="assets/cards/btn_x_light.svg?v=4"><img alt="X: @dou_dev" src="assets/cards/btn_x_light.svg?v=4" height="28" /></picture></a>&nbsp;<a href="mailto:me@isdou.info"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/btn_mail_dark.svg?v=4"><source media="(prefers-color-scheme: light)" srcset="assets/cards/btn_mail_light.svg?v=4"><img alt="Email: me@isdou.info" src="assets/cards/btn_mail_light.svg?v=4" height="28" /></picture></a></p>
 
 </div>
 
