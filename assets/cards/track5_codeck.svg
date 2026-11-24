@@ -33,10 +33,10 @@
   <text x="310" y="42.5" fill="#3F3F46" font-size="10" class="mono" text-anchor="middle" font-weight="500">MCP &amp; Skill</text>
 
   <!-- Line 2: Title & Subtitle (tspan prevents cross-platform overlap) -->
-  <text x="104" y="72" fill="#0A0A0A" font-size="19" class="doto" letter-spacing="0.04em">CODECK<tspan dx="12" dy="-1" fill="#3F3F46" font-size="13.5" class="sans" font-weight="500" letter-spacing="0">多模型上下文交接协议</tspan></text>
+  <text x="104" y="72" fill="#0A0A0A" font-size="19" class="doto" letter-spacing="0.04em">CODECK<tspan dx="12" dy="-1" fill="#3F3F46" font-size="13.5" class="sans" font-weight="500" letter-spacing="0">Codex 多模型协作插件</tspan></text>
 
   <!-- Line 3: Description -->
-  <text x="104" y="99" fill="#52525B" font-size="12.5" class="sans" font-weight="400">Codex-first 多模型编排与调度层。留在 Codex 主工作台，按需调度 Gemini / Claude / Kimi 能力并带回结果。</text>
+  <text x="104" y="99" fill="#52525B" font-size="12.5" class="sans" font-weight="400">留在 Codex 主工作台，按需点名调度 Gemini / Claude / Kimi 各自最擅长的能力并带回结果，不切窗口、不丢上下文。</text>
 
   <!-- Action Button -->
   <rect x="712" y="45" width="104" height="36" rx="7" fill="#FFFFFF" stroke="#D4D4D8" stroke-width="1" />

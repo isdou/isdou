@@ -46,17 +46,17 @@
 
 <a href="https://github.com/isdou/dsh-worktrace">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track4_worktrace_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track4_worktrace_light.svg">
-    <img alt="Track 04: WORKTRACE — 职业证据工作台" src="assets/cards/track4_worktrace_light.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track4_worktrace_dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track4_worktrace_light.svg?v=2">
+    <img alt="Track 04: WORKTRACE — 本机职业证据工作台" src="assets/cards/track4_worktrace_light.svg?v=2" width="100%" />
   </picture>
 </a>
 
 <a href="https://github.com/isdou/codeck">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track5_codeck_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track5_codeck_light.svg">
-    <img alt="Track 05: CODECK — 多模型上下文交接协议" src="assets/cards/track5_codeck_light.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track5_codeck_dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track5_codeck_light.svg?v=2">
+    <img alt="Track 05: CODECK — Codex 多模型协作插件" src="assets/cards/track5_codeck_light.svg?v=2" width="100%" />
   </picture>
 </a>
 
