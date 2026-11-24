@@ -20,11 +20,11 @@
 
 <br/>
 
-<a href="https://apps.apple.com/cn/app/lifelogs-%E5%90%8C%E4%B8%80%E5%A4%A9%E5%A4%9A%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BD%A0/id6478393048">
+<a href="https://apps.apple.com/us/app/same-page-%E4%BA%94%E5%B9%B4%E6%97%A5%E8%AE%B0/id6822737663?l=zh-Hans-CN">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track1_lifelogs_dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track1_lifelogs_light.svg?v=2">
-    <img alt="Track 01: SAME PAGE — 同一天，多年前的你" src="assets/cards/track1_lifelogs_light.svg?v=2" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track1_lifelogs_dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track1_lifelogs_light.svg?v=3">
+    <img alt="Track 01: SAME PAGE — 五年日记" src="assets/cards/track1_lifelogs_light.svg?v=3" width="100%" />
   </picture>
 </a>
 
