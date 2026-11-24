@@ -22,9 +22,9 @@
 
 <a href="https://apps.apple.com/cn/app/lifelogs-%E5%90%8C%E4%B8%80%E5%A4%A9%E5%A4%9A%E5%B9%B4%E5%89%8D%E7%9A%84%E4%BD%A0/id6478393048">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track1_lifelogs_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track1_lifelogs_light.svg">
-    <img alt="Track 01: LIFELOGS — 同一天，多年前的你" src="assets/cards/track1_lifelogs_light.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track1_lifelogs_dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track1_lifelogs_light.svg?v=2">
+    <img alt="Track 01: SAME PAGE — 同一天，多年前的你" src="assets/cards/track1_lifelogs_light.svg?v=2" width="100%" />
   </picture>
 </a>
 

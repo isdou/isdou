@@ -26,7 +26,7 @@
   <text x="317" y="42.5" fill="#C9D1D9" font-size="10" class="mono" text-anchor="middle" font-weight="500">App Store 4.9★</text>
 
   <!-- Line 2: Title & Subtitle (tspan prevents cross-platform overlap) -->
-  <text x="104" y="72" fill="#F0F6FC" font-size="19" class="doto" letter-spacing="0.04em">LIFELOGS<tspan dx="12" dy="-1" fill="#C9D1D9" font-size="13.5" class="sans" font-weight="500" letter-spacing="0">同一天，多年前的你</tspan></text>
+  <text x="104" y="72" fill="#F0F6FC" font-size="19" class="doto" letter-spacing="0.04em">SAME PAGE<tspan dx="12" dy="-1" fill="#C9D1D9" font-size="13.5" class="sans" font-weight="500" letter-spacing="0">同一天，多年前的你</tspan></text>
 
   <!-- Line 3: Description -->
   <text x="104" y="99" fill="#9CA3AF" font-size="12.5" class="sans" font-weight="400">基于时间切片的回忆型生活日志。在日复一日的流逝中重拾记忆标本，让日常有回应，生活有线索。</text>
