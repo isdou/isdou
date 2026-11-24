@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 32" width="184" height="32" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 30" width="148" height="30" fill="none">
   <defs>
     <style>
-      .mono { font-family: "SF Mono", "Space Mono", Menlo, Consolas, monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.05em; }
+      .mono { font-family: "SF Mono", "Space Mono", Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 0.03em; }
     </style>
   </defs>
-  <rect x="0.5" y="0.5" width="183" height="31" rx="5" fill="#FAFAFA" stroke="#D4D4D8" stroke-width="1" />
-  <text x="92" y="20" fill="#18181B" text-anchor="middle" class="mono">● [ BLOG: isdou.info ]</text>
+  <rect x="0.5" y="0.5" width="147" height="29" rx="6" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1" />
+  <text x="74" y="19" text-anchor="middle" class="mono"><tspan fill="#71717A" font-weight="600">BLOG</tspan><tspan fill="#71717A" dx="5">·</tspan><tspan fill="#18181B" font-weight="500" dx="5">isdou.info</tspan></text>
 </svg>
