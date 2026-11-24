@@ -28,19 +28,19 @@
   </picture>
 </a>
 
-<a href="https://github.com/isdou/SnapShelf">
+<a href="https://apps.apple.com/us/app/snapshelf-%E6%9A%82%E5%AD%98%E6%9E%B6/id6818209525?l=zh-Hans-CN&mt=12">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track2_snapshelf_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track2_snapshelf_light.svg">
-    <img alt="Track 02: SNAPSHELF — macOS 截图暂存架" src="assets/cards/track2_snapshelf_light.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track2_snapshelf_dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track2_snapshelf_light.svg?v=2">
+    <img alt="Track 02: SNAPSHELF — macOS 截图暂存架" src="assets/cards/track2_snapshelf_light.svg?v=2" width="100%" />
   </picture>
 </a>
 
-<a href="https://github.com/isdou/DouOS-Releases">
+<a href="https://apps.apple.com/us/app/douos/id6773022070?l=zh-Hans-CN">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track3_douos_dark.svg?v=3">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track3_douos_light.svg?v=3">
-    <img alt="Track 03: DOUOS — 住在手机里的 AI 朋友" src="assets/cards/track3_douos_light.svg?v=3" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track3_douos_dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track3_douos_light.svg?v=4">
+    <img alt="Track 03: DOUOS — 住在手机里的 AI 朋友" src="assets/cards/track3_douos_light.svg?v=4" width="100%" />
   </picture>
 </a>
 
