@@ -46,9 +46,9 @@
 
 <a href="https://github.com/isdou/dsh-worktrace">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track4_worktrace_dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track4_worktrace_light.svg?v=2">
-    <img alt="Track 04: WORKTRACE — 本机职业证据工作台" src="assets/cards/track4_worktrace_light.svg?v=2" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cards/track4_worktrace_dark.svg?v=3">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cards/track4_worktrace_light.svg?v=3">
+    <img alt="Track 04: WORKTRACE — 本机职业证据工作台" src="assets/cards/track4_worktrace_light.svg?v=3" width="100%" />
   </picture>
 </a>
 

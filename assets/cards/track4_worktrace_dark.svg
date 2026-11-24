@@ -10,12 +10,16 @@
   <!-- Card Background -->
   <rect x="0.5" y="0.5" width="839" height="125" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1" />
 
-  <!-- Official Worktrace W-Trace Icon -->
-  <g transform="translate(24, 31) scale(1.6)">
-    <rect x="0.75" y="0.75" width="38.5" height="38.5" rx="9" fill="#171717" stroke="#484F58" stroke-width="1" />
-    <path d="M9.25 11.5 14.1 28.8 20 16.9l5.9 11.9 4.85-17.3" stroke="#FAFAFA" stroke-width="2.55" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="9.25" cy="11.5" r="2.15" fill="#FAFAFA" />
-    <circle cx="30.75" cy="11.5" r="2.15" fill="#FAFAFA" />
+  <!-- App Icon -->
+  <rect x="24" y="31" width="64" height="64" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1" />
+  <g transform="translate(24, 31) scale(0.64)">
+    <rect x="20" y="22" width="56" height="54" rx="7" fill="#161B22" stroke="#484F58" stroke-width="2" />
+    <rect x="28" y="32" width="24" height="4.5" rx="2" fill="#F0F6FC" />
+    <rect x="28" y="43" width="40" height="2.5" rx="1.2" fill="#8B949E" />
+    <rect x="28" y="50" width="34" height="2.5" rx="1.2" fill="#8B949E" />
+    <rect x="28" y="57" width="24" height="2.5" rx="1.2" fill="#8B949E" />
+    <circle cx="67" cy="65" r="10" fill="#21262D" stroke="#F0F6FC" stroke-width="1.8" />
+    <path d="M 62.5 65 L 65.5 68 L 71.5 61.5" stroke="#F0F6FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
   </g>
 
   <!-- Line 1: Track label & Badge -->
