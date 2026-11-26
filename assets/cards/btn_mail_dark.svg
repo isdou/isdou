@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 30" width="174" height="30" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 30" width="218" height="30" fill="none">
   <defs>
     <style>
       .mono { font-family: "SF Mono", "Space Mono", Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 0.03em; }
     </style>
   </defs>
-  <rect x="0.5" y="0.5" width="173" height="29" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
-  <text x="87" y="19" text-anchor="middle" class="mono"><tspan fill="#8B949E" font-weight="600">MAIL</tspan><tspan fill="#8B949E" dx="5">·</tspan><tspan fill="#E6EDF3" font-weight="500" dx="5">me@isdou.info</tspan></text>
+  <rect x="0.5" y="0.5" width="217" height="29" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+  <text x="109" y="19" text-anchor="middle" class="mono"><tspan fill="#8B949E" font-weight="600">MAIL</tspan><tspan fill="#8B949E" dx="5">·</tspan><tspan fill="#E6EDF3" font-weight="500" dx="5">isdou.exe@gmail.com</tspan></text>
 </svg>
