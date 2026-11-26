@@ -63,9 +63,19 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/section_telemetry_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/cards/section_telemetry_light.svg">
-  <img alt="02 AI COMPUTE TELEMETRY — REALTIME ACTIVITY" src="assets/cards/section_telemetry_light.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/section_oss_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/section_oss_light.svg">
+  <img alt="02 OPEN SOURCE — CONTRIBUTIONS" src="assets/cards/section_oss_light.svg" width="100%" />
+</picture>
+
+<p align="left"><a href="https://github.com/yetone/magpie/issues?q=author%3Aisdou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_magpie_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_magpie_light.svg"><img alt="yetone/magpie ★41.9k" src="assets/cards/oss_magpie_light.svg" height="28" /></picture></a>&nbsp;<a href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pulls?q=author%3Aisdou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_awesome_dsh_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_awesome_dsh_light.svg"><img alt="awesome-dsh-plugin ★25.7k" src="assets/cards/oss_awesome_dsh_light.svg" height="28" /></picture></a>&nbsp;<a href="https://github.com/makecindy/cindy/issues/3042"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_cindy_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_cindy_light.svg"><img alt="makecindy/cindy ★10.7k" src="assets/cards/oss_cindy_light.svg" height="28" /></picture></a><br/><a href="https://github.com/KunAgent/Kun/issues?q=author%3Aisdou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_kun_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_kun_light.svg"><img alt="KunAgent/Kun ★6.4k" src="assets/cards/oss_kun_light.svg" height="28" /></picture></a>&nbsp;<a href="https://github.com/robinebers/openusage/issues/1075"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_openusage_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_openusage_light.svg"><img alt="openusage ★4.6k" src="assets/cards/oss_openusage_light.svg" height="28" /></picture></a>&nbsp;<a href="https://github.com/nkjDSLcvanv/antigravity-codex-theme/pull/1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_codex_theme_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_codex_theme_light.svg"><img alt="antigravity-codex-theme ★612" src="assets/cards/oss_codex_theme_light.svg" height="28" /></picture></a>&nbsp;<a href="https://github.com/missuo/tokens/issues?q=author%3Aisdou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/oss_tokens_dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/oss_tokens_light.svg"><img alt="missuo/tokens ★421" src="assets/cards/oss_tokens_light.svg" height="28" /></picture></a></p>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/section_telemetry_dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="assets/cards/section_telemetry_light.svg?v=2">
+  <img alt="03 AI COMPUTE TELEMETRY — REALTIME ACTIVITY" src="assets/cards/section_telemetry_light.svg?v=2" width="100%" />
 </picture>
 
 <br/>

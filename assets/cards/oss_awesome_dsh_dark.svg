@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 30" width="216" height="30" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: "SF Mono", "Space Mono", Menlo, Consolas, monospace; font-size: 10.5px; letter-spacing: 0.01em; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="215" height="29" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+  <circle cx="13" cy="15" r="3" fill="#A78BFA" />
+  <text x="23" y="18.5" class="mono"><tspan fill="#E6EDF3" font-weight="600">awesome-dsh-plugin</tspan><tspan fill="#8B949E" dx="6" font-weight="500">★25.7k</tspan></text>
+</svg>

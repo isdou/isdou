@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184 30" width="184" height="30" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: "SF Mono", "Space Mono", Menlo, Consolas, monospace; font-size: 10.5px; letter-spacing: 0.01em; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="183" height="29" rx="6" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="1" />
+  <circle cx="13" cy="15" r="3" fill="#059669" />
+  <text x="23" y="18.5" class="mono"><tspan fill="#18181B" font-weight="600">yetone/magpie</tspan><tspan fill="#71717A" dx="6" font-weight="500">★41.9k</tspan></text>
+</svg>
